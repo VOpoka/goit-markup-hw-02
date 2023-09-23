@@ -56,16 +56,13 @@ a {
 .address {
   font-style: normal;
 }
-
 .address-header {
 }
 .address-heder-item {
 }
-
 .address-header-link {
   color: #434455;
   font-family: inherit;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -95,8 +92,8 @@ a {
   color: #fff;
   font-family: inherit;
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   line-height: normal;
   cursor: pointer;
@@ -144,7 +141,7 @@ a {
   text-transform: capitalize;
   text-align: center;
 }
-.team-iton {
+.team-item {
   background-color: #ffffff;
 }
 .team-list {
