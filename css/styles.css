@@ -95,7 +95,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  line-height: normal;
   cursor: pointer;
 }
 .dark-btn:hover,
@@ -142,9 +141,9 @@ a {
   text-align: center;
 }
 .team-item {
-  background-color: #ffffff;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-name {
   color: #2e2f42;
