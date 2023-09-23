@@ -24,7 +24,7 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -46,7 +46,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -54,6 +54,7 @@ a {
 }
 
 .address {
+  font-style: normal;
 }
 
 .address-header {
@@ -82,7 +83,6 @@ a {
 }
 .dark-title {
   color: #fff;
-  /* text-align: center; */
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -95,8 +95,8 @@ a {
   color: #fff;
   font-family: inherit;
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
+  font-weight: 500;
   letter-spacing: 0.04em;
   line-height: normal;
   cursor: pointer;
@@ -145,6 +145,7 @@ a {
   text-align: center;
 }
 .team-iton {
+  background-color: #ffffff;
 }
 .team-list {
 }
