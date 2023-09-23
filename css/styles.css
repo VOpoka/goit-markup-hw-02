@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
   color: #434455;
 }
 ul {
@@ -19,16 +20,16 @@ a {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .logo-shade {
-  color: #2e2f42 ;
+  color: #2e2f42;
 }
 
 .header-list {
@@ -63,9 +64,10 @@ a {
 .address-header-link {
   color: #434455;
   font-family: inherit;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 .address-header-link:hover,
 .address-header-link:focus {
@@ -85,6 +87,7 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .dark-btn {
@@ -134,31 +137,19 @@ a {
 }
 .team-title {
   color: #2e2f42;
-  /* text-align: center; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-iton {
 }
 .team-list {
-  /* display: inline-flex; */
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-  background: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-name {
   color: #2e2f42;
-  /* text-align: center; */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -166,7 +157,6 @@ a {
 }
 .team-pozicion {
   color: #434455;
-  /* text-align: center; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -182,26 +172,16 @@ a {
 }
 .portfolio-title {
   color: #2e2f42;
-  /* text-align: center; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 }
 .portfolio-item {
 }
 .portfolio-list {
-  /* display: flex; */
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
-  border: #e7e9fc;
-  background: #fff;
 }
 .portfolio-servis {
   color: #2e2f42;
@@ -226,8 +206,17 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-shade {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -239,5 +228,5 @@ a {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
