@@ -68,7 +68,6 @@ a {
 .address {
   font-style: normal;
 }
-
 .address-header {
 }
 .address-heder-item {
@@ -76,11 +75,9 @@ a {
   align-items: flex-start;
   gap: 40px;
 }
-
 .address-header-link {
   color: #434455;
   font-family: inherit;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -114,10 +111,9 @@ a {
   color: #fff;
   font-family: inherit;
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  line-height: normal;
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -169,10 +165,10 @@ a {
   text-transform: capitalize;
   text-align: center;
 }
-.team-iton {
-  background-color: #ffffff;
+.team-item {
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-img {
 }
